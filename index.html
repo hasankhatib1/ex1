@@ -93,11 +93,23 @@ $ git --help
 
 
 Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
-$ git add contacts.html
+$ git checkout dev-contacts      (==> passer sur la branche crée (dev-contacts))
+Switched to branch 'dev-contacts'
 
-Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
+Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (dev-contacts)
+$ git add contacts.html
+fatal: pathspec 'contacts.html' did not match any files
+
+Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (dev-contacts)
 $ git commit -m "ajout un fichier contacts.html"
 
+
+Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
+$ git checkout master      (==> revenir sur la version (master))
+
+
+Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
+$ clear all
 
 
 
