@@ -34,41 +34,45 @@ index.html
 
 Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
 $ ls -l
-total 1
--rw-r--r-- 1 Etudiant 197121 145 févr.  6 11:32 index.html
 
 Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
-$ git add index.html
+$ git add index.html      (===> c-à-d ajouter la fichier index.html pour "versionner")
 
 Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
-$ git commit -m "creation index.html"
-[master (root-commit) 6e1779e] creation index.html
- 1 file changed, 12 insertions(+)
- create mode 100644 index.html
+$ git commit -m "creation index.html"   (===> c-à-d créer ma 1ère version)
 
 
 Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
 $ git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
 
-        modified:   index.html
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
+$ git add index.html image   (===> c-à-d ajouter la fichier index.html et le dossier "image" pour "versionner")
 
-        image/
 
-no changes added to commit (use "git add" and/or "git commit -a")
+Etudiant@Webforce3  ~/documents/Hasan/GitHub/TP1/ex1 (master)
+$ git commit -m "ajout d'une image"  (===> c-à-d créer une nouvelle version)
 
 
  -->
 
 <h1> Ma page </h1>
 
-<h2> ma page modifié </h2>
+<h2> ma page modifié v1</h2>
 <img src="./image/Marseille-deluxe1.jpg">
+
+<h3> les loisirs </h3>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime molestias atque fugit pariatur tempore quibusdam! Similique voluptate, nisi possimus commodi obcaecati, magnam eum porro error vel sunt ipsum sit voluptatibus.
+</p>
+
+<h3> les amis </h3>
+
+<p>
+	Lorem ipsum dolor sit amet.
+</p>
+
+
 </body>
 </html>
